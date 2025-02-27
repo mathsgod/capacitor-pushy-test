@@ -1,0 +1,20 @@
+{
+  "name": "capacitor-pushy-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@capacitor/android": "^7.0.1",
+    "@capacitor/core": "^7.0.1",
+    "pushy-cordova": "^1.0.59",
+    "pushy-cordova-receiver": "file:node_modules/pushy-cordova/receiver"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.0.1"
+  }
+}

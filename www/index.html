@@ -1,0 +1,32 @@
+<html>
+
+<body>
+
+    <h1>Pushy Test</h1>
+
+    <p>Testing content</p>
+
+    <script>
+
+        document.addEventListener("deviceready", ()=>{
+            Pushy.register(function (err, deviceToken) {
+                // Handle registration errors
+                if (err) {
+                    return alert(err);
+                }
+            
+                // Display an alert with device token
+                alert('Pushy device token: ' + deviceToken);
+            
+                // Send the token to your backend server via an HTTP GET request
+                //await fetch('https://your.api.hostname/register/device?token=' + deviceToken);
+            
+                // Succeeded, optionally do something to alert the user
+            });
+        });
+
+    </script>
+
+</body>
+
+</html>
