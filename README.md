@@ -7,7 +7,7 @@ npm install
 ```
 
 ```
-npx cap platform add android
+npx cap add android
 ```
 
 ```
